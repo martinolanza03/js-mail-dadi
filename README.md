@@ -46,6 +46,7 @@ Invece di generare il numero random per l'utente, chiedilo con un prompt!
 
 - Inizializzo un numero random per il computer
 - Chiedo il numero all'utente
+- Controllo se il numero inserito dall'utente se è compreso tra 1 e 6
 - Condizione if 
     - SE il numero del computer è maggiore
         - Stampo 'Il numero del computer è maggiore'
