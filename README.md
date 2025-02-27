@@ -41,3 +41,16 @@ Invece di generare il numero random per l'utente, chiedilo con un prompt!
     - ALTRIMENTI se i numeri sono uguali 
         - Stampo 'I numeri sono uguali'
 - Chiudo la condizione
+
+### Bonus
+
+- Inizializzo un numero random per il computer
+- Chiedo il numero all'utente
+- Condizione if 
+    - SE il numero del computer è maggiore
+        - Stampo 'Il numero del computer è maggiore'
+    - ALTRIMENTI se il numero del giocatore è maggiore
+        - Stampo 'Il numero del giocatore è maggiore'
+    - ALTRIMENTI se i numeri sono uguali 
+        - Stampo 'I numeri sono uguali'
+- Chiudo la condizione
