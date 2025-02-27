@@ -1,7 +1,7 @@
 let computerNumber = parseInt((Math.random() * 6) + 1); //Creo un numero random al computer
 let userNumber = prompt('Inserisci un numero da 1 a 6'); // L'utente inserisce un numero
 
-for(let i = 0; userNumber > 6; i++){ // Controllo se il numero inserito dall'utente è compreso tra 1 e 6, ripete se il numero non è maggiore di 6
+for(let i = 0; userNumber > 6 || userNumber == 0; i++){ // Controllo se il numero inserito dall'utente è compreso tra 1 e 6, ripete se il numero non è maggiore di 6
   userNumber = prompt('Inserisci un numero da 1 a 6'); // Faccio inserire di nuovo il numero dall'utente
 }
 
