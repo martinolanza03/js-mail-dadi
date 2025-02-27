@@ -11,7 +11,7 @@ Non è necessario provvedere alla validazione delle email
 
 ---
 
-- Inizzializzo un array
+- Inizializzo un array
 - Chiedo all'utente quale email vuole cercare
 - Apro un ciclo for
     - Controllo se l'email è nell'array
@@ -19,3 +19,25 @@ Non è necessario provvedere alla validazione delle email
         - Fermo il ciclo
     - ALTRIMENTI stampo un messaggio negativo per l'utente
 - Chiudo il ciclo
+
+---
+
+### Gioco dei dadi
+
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+Stabilire il vincitore, in base a chi fa il punteggio più alto.
+Bonus
+Invece di generare il numero random per l'utente, chiedilo con un prompt!
+
+---
+
+- Inizializzo un numero random per il computer
+- Inizializzo un numero random per il giocatre
+- Condizione if 
+    - SE il numero del computer è maggiore
+        - Stampo 'Il numero del computer è maggiore'
+    - ALTRIMENTI se il numero del giocatore è maggiore
+        - Stampo 'Il numero del giocatore è maggiore'
+    - ALTRIMENTI se i numeri sono uguali 
+        - Stampo 'I numeri sono uguali'
+- Chiudo la condizione
